@@ -17,3 +17,8 @@ npm install
 
 ### Run the app
 npm start
+
+##  Screenshot
+
+![Dashboard Preview](https://github.com/Vaishnavi6699/user-dashboard/blob/main/dashboard.png)
+
