@@ -16,13 +16,13 @@ It allows you to add, edit, and view users with a clean and responsive UI.
 ### Edit User
 ![Edit User](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(14).png)
 
-### Validation Error Example
+### displays added user
 ![Validation Error](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(15).png)
 
-### Success Message
+### user details
 ![Success](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(16).png)
 
-### Overall View
+### user details
 ![Full Dashboard](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%202025-10-20%20170459.png)
 
 
