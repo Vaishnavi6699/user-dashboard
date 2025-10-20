@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { UserProvider } from './context/UserContext';
+import Dashboard from './pages/Dashboard';
+import UserDetails from './pages/UserDetails';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('dashboard');
+  const [selectedUserId, setSelectedUserId] = useState(null);
+
+  const handleNavigateToUser = (userId) => {
+    setSelectedUserId(userId);
+    setCurrentPage('details');
+  };
+
+  const handleBackToDashboard = () => {
+    setCurrentPage('dashboard');
+    setSelectedUserId(null);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserProvider>
+      {currentPage === 'dashboard' ? (
+        <Dashboard onNavigate={handleNavigateToUser} />
+      ) : (
+        <UserDetails userId={selectedUserId} onBack={handleBackToDashboard} />
+      )}
+    </UserProvider>
   );
 }
 

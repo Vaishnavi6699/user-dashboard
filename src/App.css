@@ -27,6 +27,12 @@
 .App-link {
   color: #61dafb;
 }
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
 
 @keyframes App-logo-spin {
   from {
