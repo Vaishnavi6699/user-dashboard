@@ -13,7 +13,7 @@ It allows you to add, edit, and view users with a clean and responsive UI.
 ### Create User
 ![Create User](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(13).png)
 
-### Edit User
+### diaplays added user
 ![Edit User](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(14).png)
 
 ### displays added user
@@ -22,14 +22,13 @@ It allows you to add, edit, and view users with a clean and responsive UI.
 ### user details
 ![Success](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(16).png)
 
-### user details
-![Full Dashboard](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%202025-10-20%20170459.png)
 
-###  Validation / Error Message
-![Error Message](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(17).png)
+
+### Error Message
+![Error Message](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(18).png)
 
 ###  Searching by Name
-![Search by Name](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(18).png)
+![Search by Name](https://github.com/Vaishnavi6699/user-dashboard/blob/main/Screenshot%20(17).png)
 
 
 ## Setup Instructions
